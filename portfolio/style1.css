@@ -1,0 +1,308 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)),
+                url('pic4.jpg');
+    background-size: cover;
+    color: white;
+}
+
+nav{
+    width: 100%;
+    height: 100px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 70px;
+    font-family: 'Poppins' , sans-serif;
+}
+
+.logo{
+    font-size: 2em;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    padding: 0.5rem 1rem;
+}
+
+.menu a:nth-child(5){
+    background: green;
+    border-radius: 8px;
+    margin: 0 1rem;
+}
+
+.menu i{
+    font-size: 1.5rem;
+    margin: 0 0.5rem;
+    cursor: pointer;
+}
+
+.menu a:hover{
+    background: green;
+    border-radius: 8px;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 70px;
+}
+
+.left{
+    flex-basis: 60%;
+}
+
+.right{
+    flex-basis: 30%;
+}
+
+.left h2{
+    font-family: 'Poppins', sans-serif;
+    color: green;
+}
+
+.left h1{
+    font-family: 'Kalam', cursive;
+    font-size: 5em;
+}
+
+.left p{
+    font-family: 'Poppins', sans-serif;
+    line-height: 2.5rem;
+}
+
+#hire{
+    text-decoration: none;
+    background: green;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    margin: 0 1rem;
+}
+
+#myp{
+    text-decoration: none;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    border: 1px dashed white;
+    font-size: 1.5rem;
+    margin: 0 1rem;
+}
+
+#bio{
+    cursor: pointer;
+    padding: 150px 70px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    font-family: 'Poppins', sans-serif;
+}
+
+.leftbio{
+    flex-basis: 40%;
+}
+
+.rightbio{
+    flex-basis: 60%;
+}
+
+.leftbio img{
+    width: 100%;
+    height: 700px;
+    border-radius: 8px;
+}
+
+.rightbio{
+    text-align: right;
+    padding: 0 40px;
+    
+}
+
+.rightbio p{
+    margin: 15px 0;
+    line-height: 2.5rem;
+}
+
+.rightbio h1{
+    font-size: 3rem;
+}
+
+.info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: left;
+}
+
+#follow{
+    text-align: center;
+}
+
+#follow i{
+    color: green;
+    font-size: 1.5rem;
+    margin: 0 0.5rem; 
+}
+
+.link-h{
+    text-align: center;
+    margin: 3rem;
+}
+
+#cv{
+    text-decoration: none;
+    color: black;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    margin: 0 1rem;
+    border: 1px dashed grey;
+}
+
+#services{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.row{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 450px;
+    border: 1px solid black;
+    margin: 10px;
+    align-items: center;
+    text-align: justify;
+    padding: 10px;
+    border-radius: 15px;
+    background: linear-gradient(to top, green , white 50%);
+    background-size: 100% 200%;
+    transition: all .8s;
+}
+
+.box:hover{
+     background-position: left bottom;
+     color: white;
+     border: none;
+     box-shadow: 0 0 20px rgb(255,45,45);
+}
+
+.box img{
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    padding: 10px;
+}
+
+.headings{
+    font-family: century;
+    font-size: 3rem;
+    text-align: center;
+    margin: 40px 0px;
+}
+
+#portfolio{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    color: black;
+    align-items: center;
+    padding: 20px;
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+
+.gallery img{
+    width: 360px;
+    height: 240px;
+    margin: 10px;
+}
+
+#contact{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color: rgba(0,0,0,0.9);
+    color: white;
+}
+
+.form{
+    display: flex;
+    flex: column;
+    box-sizing: border-box;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.input{
+    padding: 12px;
+    margin: 15px;
+    width: 30%;
+    border: white;
+    outline: white;
+}
+
+#msg{
+    width: 20%;
+    padding: 10px;
+    margin: 15px;
+    border: white;
+    outline: white;
+}
+
+#send{
+    padding: 10px;
+    width: 10%;
+    margin: 40px;
+    border: white;
+    outline: white;
+}
+
+#send:hover{
+    cursor: pointer;
+    box-shadow: 0 0 10px white;
+}
+
+footer{
+    background: green;
+    color: white;
+    font-size: 2rem;
+    padding: 0.5rem;
+    font-family: 'Kalam', cursive;
+}
